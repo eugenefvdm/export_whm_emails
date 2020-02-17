@@ -1,0 +1,6 @@
+{
+    "require": {
+        "gufy/cpanel-whm": "dev-master",
+        "vlucas/phpdotenv": "^4.1"
+    }
+}
