@@ -1,4 +1,4 @@
-# WHM/cPanel Get a list of all emails in .CSV format
+# WHM/cPanel Get a list of all emails for all accounts in .CSV format
 
 ## Description
 
@@ -43,31 +43,19 @@ If you want to save the information:
 
 `php export.php > filename.csv`
 
-## Inspiration
+## Credits
+
+https://packagist.org/packages/gufy/cpanel-php
 
 The inspiration for this script was found on the cPanel forum.
-
 https://forums.cpanel.net/threads/list-all-mailboxes-email-addresses-defined-on-server.75372/
+ 
+Additional posts and script links exist on the cPanel forum too:
+https://forums.cpanel.net/threads/export-email-account-addresses.82169/
 
-After having read it's possible and what API calls to use, I used packagist to find a WHM PHP API.
-
- https://packagist.org/packages/gufy/cpanel-php
- 
- The above API worked out of the box.
-  
- To enable abstraction of the credentials the brilliant `phpdotenv` package was used:
- 
- https://github.com/vlucas/phpdotenv
- 
- Additional posts and script links exist on the cPanel forum too:
- 
- https://forums.cpanel.net/threads/export-email-account-addresses.82169/
- 
- The script above unfortunately contains a lot of extra unneeded information.
- 
  ## Support
  
  Contact `eugene@vander.host` or +27 82 3096710 for support
+  https://vander.host
+ Servers, Emails, and Domain Name Registration
  
- https://vander.host
- VPS, Hosting and Domains
