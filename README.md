@@ -37,11 +37,7 @@ If you're using `hash`, get the hash from:
 
 Then execute the script:
 
-`php export.php`
-
-If you want to save the information:
-
-`php export.php > filename.csv`
+`php export.php filename`
 
 ## Credits
 
