@@ -30,7 +30,12 @@ if ($argv[1] == "all") {
     getEmailUsage($api, $username);
 }
 
-// Retrieve all email accounts and their usage for a given cPanel user and write to a CSV file
+/**
+ * Retrieve all email accounts and their usage for a given cPanel user and write to a CSV file
+ *
+ * https://api.docs.cpanel.net/openapi/cpanel/operation/list_pops_with_disk/
+ */
+
 function getEmailUsage($api, $username) {
     $data = $api->execute_action(
         '3',
