@@ -2,15 +2,36 @@
 
 ## Description
 
-A PHP script to output account and email address in this format:
+A PHP script to output cPanel account and email addresses:
+
+In this format:
+
+```
+user1@example.com,371.99,2000.00
+user2@example.com,471.99,3000.00
+user3@example.com,571.99,4000.00
+```
+
+or this format:
 
 ```
 accountname1,email1@domain1.com
 accountname1,email2@domain1.com
 accountname2,email1@domain2.com
 ```
-
 ## Usage
+
+Execute the script either for a specific username or for all accounts.
+
+```shell
+php export.php username
+```
+
+```shell
+php export.php all
+```
+
+## Installation
 
 First get the script on your computer:
 
@@ -34,10 +55,6 @@ PASSWORD=
 If you're using `hash`, get the hash from:
 
     WHM-->>CLusters-->>Remote Access Key-->>Access Key For User
-
-Then execute the script:
-
-`php export.php filename`
 
 ## Credits
 

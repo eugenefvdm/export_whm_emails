@@ -1,5 +1,9 @@
 # Change Log
 
+## 2023-05-10
+
+- There are two functions now, one that outputs email usage and total usage
+
 ## 2023-05-09
 
 ### Added 
