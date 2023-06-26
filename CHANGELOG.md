@@ -1,5 +1,9 @@
 # Change Log
 
+## 2023-06-26
+
+- Update example .env.example to have correct WHM_ prefix and 2087
+
 ## 2023-05-10
 
 - There are two functions now, one that outputs email usage and total usage
